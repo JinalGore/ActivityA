@@ -3,5 +3,5 @@ install:
 	. testing/bin/activate
 	pip install --user -r requirements.txt
 
-test:
-	nosetests app/ -v
+jenkins_test:
+	testing/bin/nosetests app/ -v
