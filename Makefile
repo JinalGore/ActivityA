@@ -1,7 +1,7 @@
 install:
 	virtualenv testing
 	. testing/bin/activate
-	pip install -r requirements.txt
+	pip install --user -r requirements.txt
 
 test:
 	nosetests app/ -v
