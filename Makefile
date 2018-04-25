@@ -1,6 +1,6 @@
 install:
 	virtualenv testing
-	source testing/bin/activate
+	. testing/bin/activate
 	pip install -r requirements.txt
 
 test:
